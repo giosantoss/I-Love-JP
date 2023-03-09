@@ -1,0 +1,34 @@
+/*=-=-=-=-=-=-= HEADER =-=-=-=-=-=-=*/
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image: linear-gradient(to bottom, black,rgba(0, 0, 0, 0.651), transparent);
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+
+.logo img{
+    width: 120px;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    height: 40px;
+}
+
+nav>a:hover{
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 15px;
+    transition: .5s;
+}

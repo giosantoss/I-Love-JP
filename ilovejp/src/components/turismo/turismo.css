@@ -1,0 +1,7 @@
+#turismo{
+    height: 100vh;
+    background-image: url(../../images/letreiro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

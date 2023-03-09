@@ -1,0 +1,116 @@
+/*=-=-=-=-=-=-= MAIN =-=-=-=-=-=-=*/
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main{
+    padding-top: 100px;
+    display: grid;
+    justify-items: center;
+    background-image: url(../../images/cabobranco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.desc{
+    display: flex;
+    flex-direction: column;
+}
+
+.desc>img{
+    justify-self: center;
+    align-self: center;
+}
+
+.desc>p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.grid{
+    display: flex;
+    gap: 5%;
+}
+
+.card{
+    border-radius: 15px;   
+    height: 300px;
+    width: 250px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.623);
+    transition: .3s ease-in-out;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.363);
+}
+
+.card>.title{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.877), transparent);
+    border-radius: 15px 15px 0px 0px;
+    height: 150px;
+    padding: 3%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  transition: .5s ease-in-out;
+}
+
+.material-symbols-outlined:hover{
+    transform: rotate(-90deg);
+}
+
+.display{
+    height: 5px;
+}
+
+.display:hover ~ p {
+    opacity: 1;
+}
+
+.title>a{
+    color: white;
+}
+
+.title>h3{
+    padding: 5%;
+}
+
+.title>p{
+    position: relative;
+    font-size: 0.8em;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: start;
+    opacity: 0;
+    transition: .5s ease-in;
+}
+
+.farol{
+    background-image: url(../../images/cabobranco-para-joao-pessoa.png);
+}
+
+.seixas{
+    background-image: url(../../images/piscinas-naturais-seixas-joao-pessoa.png);
+}
+
+.skybar{
+    background-image: url(../../images/skybar.png);
+}
+
+.litoral{
+    background-image: url(../../images/tabatinga.png);
+}
